@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item android:title="Tra cứu bài hát">
+        <menu>
+                <item
+                    android:id="@+id/nav_arirang_songs"
+                    android:icon="@drawable/ic_nav_list_songs"
+                    android:title="Arirang"/>
+
+                <item
+                    android:id="@+id/nav_music_core_songs"
+                    android:icon="@drawable/ic_nav_favorite"
+                    android:title="Music Core"/>
+                <item
+                    android:id="@+id/nav_california_songs"
+                    android:icon="@drawable/ic_nav_place"
+                    android:title="California"/>
+        </menu>
+    </item>
+    <item android:title="Hỗ trợ">
+        <menu>
+                <item
+                    android:id="@+id/nav_update"
+                    android:icon="@drawable/ic_nav_update"
+                    android:title="Cập nhật dữ liệu"/>
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@drawable/ic_nav_feedback"
+                    android:title="Ý kiến, phản hồi"/>
+                <item
+                    android:id="@+id/nav_instruction"
+                    android:icon="@drawable/ic_nav_instruction"
+                    android:title="Hướng dẫn"/>
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_nav_info"
+                    android:title="Giới thiệu"/>
+        </menu>
+    </item>
+    </group>
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:text="1234567"
+            android:id="@+id/txtCode"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="Chắc ai đó sẽ về"
+                android:textSize="15sp"
+                android:id="@+id/txtName"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="12sp"
+                android:text="Anh tìm nỗi nhớ, anh tìm quá khứ..."
+                android:id="@+id/txtLyric"/>
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/cbxFav"
+            android:layout_gravity="center"
+            android:button="@drawable/ic_check_favorite"
+            android:focusable="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>
