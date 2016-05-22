@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              android:orientation="horizontal"
+              android:background="@color/colorPrimary">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:imeOptions="actionSearch"
+            android:id="@+id/edtSearch"
+            android:background="@drawable/arround_edit_text"
+            android:textColor="@color/textColorPrimaryDark"
+            android:layout_margin="10dp"
+            android:drawableStart="@drawable/ic_search"
+            android:paddingLeft="10dp"
+            android:hint="@string/search_song"
+            android:singleLine="true"
+            android:textSize="15sp"/>
+
+</LinearLayout>

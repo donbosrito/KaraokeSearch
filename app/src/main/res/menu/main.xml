@@ -2,9 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/action_favorite"
+        android:orderInCategory="0"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_nav_favorite"
+        android:title="Favorite"/>
+    <item
         android:id="@+id/action_search"
         android:orderInCategory="0"
-        app:showAsAction="always|collapseActionView"
+        app:showAsAction="ifRoom"
         android:icon="@drawable/ic_nav_search"
         android:title="Search"/>
+
 </menu>

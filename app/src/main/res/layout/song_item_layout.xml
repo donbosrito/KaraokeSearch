@@ -31,13 +31,15 @@
                 android:singleLine="true"
                 android:text="Chắc ai đó sẽ về"
                 android:textSize="15sp"
-                android:id="@+id/txtName"/>
+                android:textColor="@color/textColorPrimaryDark"
+                android:id="@+id/txtSongName"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
                 android:textSize="12sp"
                 android:text="Anh tìm nỗi nhớ, anh tìm quá khứ..."
+                android:textColor="@color/textColorPrimaryDark"
                 android:id="@+id/txtLyric"/>
         </LinearLayout>
 

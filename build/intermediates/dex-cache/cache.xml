@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/Volumes/Data/Google Drive/AndroidStudio Workspace/KaraokeApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="7726af4d4e21672267ee91c0226f34379a304dc1">
-        <dex dex="/Volumes/Data/Google Drive/AndroidStudio Workspace/KaraokeApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_17b5f3f464d09df42f0dcc66040d98546a29533b/classes.dex" />
-    </item>
-
-</items>
+<items version="2" />

@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">KaraokeSearch</string>
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
+    <string name="no_data">Không có bài hát nào</string>
+    <string name="singer">Ca sĩ</string>
+    <string name="song_name">Tên bài hát</string>
+    <string name="lyric">Lời bài hát</string>
+    <string name="short_name">Tìm nhanh</string>
+    <string name="search_song">Tìm kiếm bài hát</string>
+    <string name="code">Mã số</string>
+    <string name="favorite">Yêu thích</string>
+    <string name="try_listening">Nghe thử bài hát</string>
+    <string name="volume">Volume</string>
+    <string name="karaoke_player">Đầu phát karaoke</string>
 </resources>
